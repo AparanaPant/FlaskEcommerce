@@ -1,4 +1,3 @@
-# app/auth.py
 from flask import request
 from flask_restx import Namespace, Resource, fields
 from flask_jwt_extended import create_access_token

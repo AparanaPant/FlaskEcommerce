@@ -27,7 +27,7 @@ def create_app(test_config: dict | None = None) -> Flask:
         version="1.0.0",
         title="E-commerce API",
         description="Flask + SQLite + JWT. Auto-documented with flask-restx.",
-        doc="/docs",  # Swagger UI at /docs
+        doc="/docs",
     )
 
     api.add_namespace(auth_ns, path="/auth")

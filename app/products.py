@@ -1,4 +1,3 @@
-# app/products.py
 from flask import request
 from flask_restx import Namespace, Resource, fields
 from .database import db
